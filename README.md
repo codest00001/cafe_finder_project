@@ -1,3 +1,6 @@
+#남부여성발전센터2024.10.16.수요일 개인프로젝트
+#카카오 API 활용 카페검색
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

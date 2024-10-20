@@ -17,7 +17,7 @@ export default function SearchArea(){
         const response = await axios.get(`https://dapi.kakao.com/v2/search/cafe`,
             {
              headers:{
-                Authorization: 'KakaoAK 98c5825848374c7811452ed4c82714b9',
+                Authorization: 'KakaoAK 카카오 개인 웹키',
             },
             params:{
                 query:query,

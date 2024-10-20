@@ -8,8 +8,13 @@ export default function SearchBar({query, setQuery, searchArticles}){
     
     return(
   <form className='search-bar' onSubmit={handleSearch}>
+    <div>
     <input type="text" value={query} onChange={(e)=>setQuery(e.target.value)} placeholder="검색어를 입력해봐요"></input>
     <button type = 'submit'>검색 💨</button>
+    </div>
+    <div>
+    <button type = 'submit' value={query} onClick={(e)=>setQuery('야옹')}>야옹</button>
+    </div>
   </form>
     )
 }

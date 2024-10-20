@@ -1,10 +1,6 @@
 import { CafeContext } from '../Finder';  // 올바른 import 경로로 수정
-
 import { useContext } from "react"
-
 import './List.css'
-
-
 
 export default function List({articles}){
 

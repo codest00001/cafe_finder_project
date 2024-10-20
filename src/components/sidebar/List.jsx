@@ -7,7 +7,12 @@ export default function List({articles}){
     const {setSelected} = useContext(CafeContext);
 
     return(
+        <>
+     
         <div className='article-list'>
+              
+        
+    
             {articles.map((article)=>{
                 return(
                     <div key={article.index} className="article-item" onClick={()=>setSelected(article)}>
@@ -24,5 +29,6 @@ export default function List({articles}){
 
             }
         </div>
+        </>
     )
 }
